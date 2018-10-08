@@ -1,0 +1,58 @@
+button{
+  margin: 0;
+  padding: 0;
+}
+
+.ans {
+  width: 400px;
+  height: 50px;
+  border: 2px solid black;
+}
+
+.ops {
+  float: right;
+  display: flex;
+  flex-direction: column;
+}
+
+.neg{
+  float: right;
+  display: flex;
+  flex-direction: column;
+}
+
+.calc {
+  margin: auto;
+  width: 400px;
+  border: 3px solid red;
+}
+
+.clear{
+  width: 300px;
+  margin: 0;
+  font-size: 0;
+}
+
+.deci{
+  font-size: 0;
+  width: 300px;
+}
+
+.zero{
+  width: 200px;
+}
+
+.numspace{
+  width: 400px;
+  margin: 0;
+}
+
+.eq{
+  height: 200px;
+}
+
+button {
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+}
