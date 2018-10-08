@@ -4,10 +4,10 @@ $(document).ready(function() {
   //calculator "logic" starts
 
   var exp = "",
-      acc = 0,
-      val = "",
-      op = "",
-      curOp = "";
+    acc = 0,
+    val = "",
+    op = "",
+    curOp = "";
 
   $(".num").on("click", function() {
     if (op === "=") {
@@ -128,3 +128,5 @@ $(document).ready(function() {
     $(".ans").append(val);
   }
 });
+
+//Tweak AC button

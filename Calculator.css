@@ -1,67 +1,75 @@
-button {
-  margin: 10px;
+body {
+  background: linear-gradient(30deg, #dbe6f6, #c5796d);
+}
+.title {
+  margin: 20px auto;
+  width: 180px;
+  color: white;
+  text-align: center;
+  font-family: "K2D";
+  font-size: 40px;
+}
+.calc {
+  background: white;
+  width: 400px;
+  margin: auto;
   padding: 20px;
-  height: 80px;
-  width: 80px;
+  box-shadow: 2px 2px 20px;
+  border-radius: 20px;
 }
 .ans,
 .exp {
+  background: #95a5a6;
   width: auto;
-  height: 35px;
-  background: grey;
-  padding: 5px;
+  height: 40px;
+  padding: 10px;
+  color: white;
+  font-family: "K2D";
+  font-size: 30px;
 }
-
+section {
+  width: 380px;
+  margin: 10px auto 5px;
+}
+.numspace {
+  width: 400px;
+  margin: 0;
+}
+button {
+  height: 80px;
+  width: 80px;
+  margin: 10px;
+  margin-bottom: 2px;
+  padding: 20px;
+}
 .ops {
   float: right;
   display: flex;
   flex-direction: column;
 }
-
 .neg {
   float: right;
   display: flex;
   flex-direction: column;
 }
-
-.calc {
-  margin: auto;
-  width: 400px;
-  box-shadow: 2px 2px 20px;
-  border-radius: 20px;
-  padding: 20px;
-}
-
 .clear {
   width: 300px;
   margin: 0;
   font-size: 0;
 }
-
+.zero {
+  width: 180px;
+}
 .deci {
   font-size: 0;
   width: 300px;
 }
-
-.zero {
-  width: 180px;
-}
-
-.numspace {
-  width: 400px;
-  margin: 0;
-}
-
 .eq {
-  height: 180px;
-}
-
-button {
+  height: 172px;
 }
 button:hover {
   border: 1px solid black;
 }
-
 button:focus {
   border: 1px solid black;
 }
