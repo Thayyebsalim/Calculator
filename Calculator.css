@@ -1,6 +1,7 @@
 body {
-  background: linear-gradient(30deg, #dbe6f6, #c5796d);
+  background: linear-gradient(30deg, #CB356B, #BD3F32);
 }
+
 .title {
   margin: 20px auto;
   width: 180px;
@@ -8,68 +9,83 @@ body {
   text-align: center;
   font-family: "K2D";
   font-size: 40px;
+  margin-bottom: 40px;
 }
+
 .calc {
+  overflow: hidden;
   background: white;
   width: 400px;
   margin: auto;
-  padding: 20px;
   box-shadow: 2px 2px 20px;
   border-radius: 20px;
 }
+
 .ans,
 .exp {
-  background: #95a5a6;
   width: auto;
-  height: 40px;
-  padding: 10px;
+  height: 50px;
+  padding: 20px;
+  padding-bottom: 10px;
   color: white;
   font-family: "K2D";
-  font-size: 30px;
+  font-size: 25px;
 }
+
 section {
-  width: 380px;
-  margin: 10px auto 5px;
+  background: #0d0f0f;
 }
+
 .numspace {
   width: 400px;
   margin: 0;
 }
+
 button {
-  height: 80px;
-  width: 80px;
-  margin: 10px;
-  margin-bottom: 2px;
+  background: #191e1e;
+  border: none;
+  height: 100px;
+  width: 100px;
   padding: 20px;
+  color: white;
+  font-size: 20px;
 }
+
 .ops {
   float: right;
   display: flex;
   flex-direction: column;
 }
+
 .neg {
   float: right;
   display: flex;
   flex-direction: column;
 }
+
 .clear {
   width: 300px;
   margin: 0;
   font-size: 0;
 }
+
 .zero {
-  width: 180px;
+  width: 200px;
 }
+
 .deci {
   font-size: 0;
   width: 300px;
 }
+
 .eq {
-  height: 172px;
+  height: 200px;
 }
+
 button:hover {
-  border: 1px solid black;
+  border: 1px solid white;
 }
+
 button:focus {
   border: 1px solid black;
 }
